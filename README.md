@@ -4,4 +4,4 @@
 <p>Testei meu conhecimento utilizando um pouco de DOM com o JavaScript e animações com CSS</p>
 
 ## Imagem de exemplo do projeto Demon Slayer realizado por mim.
-<img src="./assets/exemploDOProjeto.png">
+<img src="./assets/image/exemploDoProjeto.png">
