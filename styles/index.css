@@ -27,6 +27,7 @@ body {
 
 .btn {
   width: 28%;
+  /* min-width: 150px; */
   height: 70px;
   background-color: rgba(255, 255, 255, 0.49);
   background-image: url(../assets/images/dia.jpg);
@@ -41,7 +42,7 @@ body {
 
 .circle {
   display: block;
-  width: 50px;
+  width: 23%;
   height: 50px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.6);
@@ -104,4 +105,73 @@ body {
 .rodape-color {
   color: #cecece;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 425px) {
+  #cabecalho {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 30%;
+    min-width: 100px;
+    margin-top: 360px;
+    margin-left: 250px;
+  }
+
+  .circle {
+    width: 40%;
+    left: 2%;
+  }
+
+  .mode {
+    left: 58%;
+    opacity: 75%;
+  }
+
+  .principal {
+    width: 95%;
+    height: 450px;
+  }
+
+  .fundo-image {
+    background-image: url(../assets/images/Nezuko-2.jpg);
+    background-position: center center;
+  }
+
+  .rodape {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .principal {
+    width: 100%;
+  }
+
+  .circle {
+    width: 45%;
+  }
+
+  .mode {
+    left: 52%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #cabecalho {
+    font-size: .8rem;
+  }
+
+  .btn {
+    margin-left: 205px;
+  }
+
+  .rodape {
+    font-size: .9rem;
+  }
+
+  .rodape a {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  }
 }
